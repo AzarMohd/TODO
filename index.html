@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>to do app</title>css
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body onload="initClock()">
+	<div class="datetime">
+ 			<div class="date">
+ 		    <span id="dayname">Day</span>,
+ 			<span id="month">Month</span>.
+ 			<span id="daynum">00</span>.
+ 			<span id="year">Year</span>
+             </div>
+             <div class="time">
+ 		    <span id="hour">00</span>:
+ 			<span id="minutes">00</span>:
+ 			<span id="seconds">00</span>
+ 			<span id="period">AM</span>
+             </div>
+ 		</div>	
+ <div class="wrapper">
+
+ 	<header>Todo App..</header>
+ 		<div class="inputfield">
+ 			<input type="text" placeholder="add your new todo">
+ 			<button><i class="fas fa-plus"></i></button>
+ 		</div>
+ 		<ul class="todolist">
+ 			<!--data comes from local storage-->
+ 		</ul>
+ 		<div class="footer">
+ 			<span>TOTAL : <span class="pendingNumb"></span> Pending tasks</span>
+ 			<button>delete all</button>
+ 		</div>
+ 			
+ </div>
+ <script src="script.js">
+ 	
+ </script>
+</body>
+</html>
